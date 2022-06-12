@@ -6,7 +6,6 @@ for i in s:
         ucount+=1
     else:
         lcount+=1
-#print("u:",ucount,"l:",lcount,end='\n')
 
 if ucount > lcount:
     print(s.upper())
