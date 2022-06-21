@@ -10,7 +10,7 @@ public class CF467A {
             int p = sc.nextInt();
             int q = sc.nextInt();
             int cap = q-p;
-            if (cap>0){
+            if (cap>=2){
                 count+=1;
                 continue;  }
             else{
