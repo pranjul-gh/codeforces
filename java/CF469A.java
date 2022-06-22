@@ -1,19 +1,19 @@
 // #_wrong_solution
-import java.util.*;
+import java.util.Scanner;
 public class CF469A {
     public static void main(String argds[]){
-    Scanner sc = new Scanner(System.in);
+    Scanner snc = new Scanner(System.in);
     int p,q,i,j,k,l,m,f=0 ;
-    int n = sc.nextInt();
-    p = sc.nextInt();
+    int n = snc.nextInt();
+    p = snc.nextInt();
     int[] arr1 = new int[p];
     for (i=0; i<p; i++){
-        arr1[i] = sc.nextInt();
+        arr1[i] = snc.nextInt();
         }
-    q = sc.nextInt();
+    q = snc.nextInt();
     int[] arr2 = new int[q];
     for (j=0; j<q; j++){
-        arr2[j] = sc.nextInt();
+        arr2[j] = snc.nextInt();
         }
     int[] comarr = new int[p+q];
     for (k=0;k<(p+q);){
@@ -40,5 +40,5 @@ public class CF469A {
     else {
     System.out.println("Oh, my keyboard!");
     }
-sc.close(); }
+snc.close(); }
 }
