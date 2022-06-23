@@ -12,7 +12,7 @@ public class CF1328A {
         for (int k=0;k<n;k+=2){
             if (arr[k] > arr[k+1] && arr[k]%arr[k+1] != 0){
                r = arr[k]%arr[k+1];
-               System.out.println(arr[k]-r);            }
+               System.out.println(arr[k+1]-r);            }  //change
             if (arr[k] < arr[k+1]){
                 System.out.println(arr[k+1]-arr[k]);  }
                 //continue;
