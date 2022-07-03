@@ -10,5 +10,5 @@ public class CF581A {
         n=Math.abs(a-b);
         System.out.println(min) ;   
         System.out.println(n/2)   ;     
-    }    
+sc.close();    }    
 }
